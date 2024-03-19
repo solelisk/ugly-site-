@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    cursor: url('../img/clicker.png'), auto;
+    background-image: url('../img/rainbow.gif');    background-size: cover;
+    background-repeat: repeat;
+    border: 20px pink dotted;
+    font-family: 'Comic Neue', sans-serif;
+    font-style: oblique;
+}
+
+nav{
+    inset-block: right;
+    border: 19px fuchsia solid;
+    padding-left: 12px;
+    margin: auto;
+    background-color: aliceblue;
+    color: aquamarine;
+    font-size: larger;
+}
+
+nav p:hover{
+    transform: translateX(400px);
+}
+
+h1{
+    color: yellow;
+    text-size-adjust:100px;
+    text-align: center;
+    border: 10px blue dashed;
+}
+
+h2{
+    color: red;
+    text-size-adjust:100px;
+    text-shadow: 20px;
+    text-decoration: wavy chartreuse;
+    border: 14px purple solid;
+}
+
+h3{  
+    text-size-adjust:400px;
+    color: greenyellow;
+    text-align: right;
+    border: 20px brown dotted;
+    margin-left: 23px;
+}
+img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
